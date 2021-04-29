@@ -1,0 +1,41 @@
+.logo {
+  height: 40px;
+}
+
+.button-Qey {
+  float: right;
+}
+
+.contact {
+  color: #fff;
+}
+
+.kecidler {
+  color: #fff;
+}
+
+.kecidler ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.kecidler ul li {
+  display: block;
+  margin: 3px;
+  padding: 3px;
+}
+
+.kecidler ul li a i {
+  margin: 3px;
+}
+
+.kecidler ul li a:hover {
+  color: rgb(219, 217, 217);
+}
+
+.develop {
+  color: #fff;
+}
+
+.develop p {
+  float: right;
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tester.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+      <div class="container-fluid  ">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="logof.jpg" alt="" />
+        </a>
+        <a class="navbar-brand" href="#">MyFruit.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown2"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Favorite
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark bg-dark"
+                aria-labelledby="navbarDropdown2"
+              >
+                <li><a class="dropdown-item" href="#">Apple</a></li>
+                <li><a class="dropdown-item" href="#">Banana</a></li>
+                <li><a class="dropdown-item" href="#">Pear</a></li>
+                <li><a class="dropdown-item" href="#">Cherry</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Add more</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Fruit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">More</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Type
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Berry</a></li>
+                <li><a class="dropdown-item" href="#">Cookie</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Order more</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" id="sum" href="#">Bucket: <span id="toplam">0</span>$ </a>
+            </li>
+            <form class="d-flex ms-5" >
+                <input class="form-control me-2 "  type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="card col-md-3 " >
+          <img src="fruit2.jpg"  class="card-img-top mt-4 img-fluid" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Eating fruit is your right</h5>
+            <p class="card-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eveniet ad, explicabo eligendi consequatur id!
+            </p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        <div class="cont mt-4 col-md-6 container-fluid">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner mt-3">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="pinapple.jpg"  class="d-block w-100" alt="..." />
+                <div class="carousel-caption bg-dark d-none d-md-block">
+                  <h5>Əsl Ananasın dadını hiss et!</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint consequuntur sit vero libero accusantium.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="fruit7.jpg"   class="d-block w-100" alt="..." />
+                <div class="carousel-caption  bg-dark d-none d-md-block">
+                    <h5>Yediyin bütün Qarpızları unut!</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint consequuntur sit vero libero accusantium.
+                    </p>
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="citrus.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption bg-dark d-none d-md-block">
+                    <h5>Greyfurt sizcə də ən dadlı sitrus meyvəsidir?</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint consequuntur sit vero libero accusantium.
+                    </p>
+                  </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="fruit3.jpg" class="card-img-top mt-4" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Welcome Summer</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-danger">11$</a>
+            <a href="#" id="basket" class="btn btn-success">Add to Basket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid  mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <h5 class="card-header">MyFruit.com</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Bütün meyvələrin <strong>ən yaxşısını</strong> bizdən alın</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, hic asperiores? Illo 
+                          reiciendis odit, mollitia molestia  tempora maiores voluptates neque totam dolor dol
+                          oribus deleniti earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, provident?<
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, hic asperiores? Illo 
+                            reiciendis odit, mollitia molestia  tempora maiores voluptates neque totam dolor dol
+                            oribus deleniti earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, provident?</p>
+                      <a href="#" class="button-Qey btn btn-dark">Sign in or Register</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid mb-3">
+        <div class="row  mt-3">
+            <div class="  col-md-3">
+                <div class="card" >
+                    <img src="fruit-gilsa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Berry</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">3$</a>
+                      <a href="#" id="basketbery" class="btn  btn-success">Add to Basket</a>
+                    </div>
+                  </div>
+            </div>
+            <div class=" col-md-3">
+                <div class="card" >
+                    <img src="apple2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">4.20$</a>
+                      <a href="#"  id="basketapp" class="btn  btn-success">Add to Basket</a>
+                    </div>
+                  </div>
+            </div>
+            <div class=" col-md-3">
+                <div class="card" >
+                    <img src="pineapple.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pear</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">5$</a>
+                      <a href="#" class="btn btn-success">Add to Basket</a>
+                    </div>
+                  </div>
+            </div>
+            <div class=" col-md-3">
+                <div class="card" >
+                    <img src="melon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Water-Melon</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-danger">2.5$</a>
+                      <a href="#" class="btn btn-success">Add to Basket</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="card-footer container-fluid bg-dark">
+        <div class="row">
+            <div class="col-md-3 mt-3 ">
+                <select class="form-select  bg-light" style="width: 70%;" aria-label="Default select example">
+                    <option selected>Select Language</option>
+                    <option value="1">English</option>
+                    <option value="2">Turkish</option>
+                    <option value="3">Azerbaijani</option>
+                    <option value="3">Espanyol</option>
+                  </select>
+
+                  <div class="contact mt-4 ms-2">
+                    <i class="fas fa-phone-alt"></i> +994 50 524 94 94
+                  </div>
+            </div>
+            <div class="kecidler col-md-3">
+                <ul>
+                    <li><a href=""> <i class="fab fa-instagram"></i> MyFruit_Shop</a></li>
+                    <li><a href=""> <i class="fab fa-facebook"></i> Myfruit.Shop </a></li>
+                    <li><a href=""> <i class="fab fa-twitter"></i> MyFruit-Shop</a></li>
+                    <li><a href=""> <i class="far fa-envelope"></i> MyFruit@gamil.com</a></li>
+                </ul>
+            </div>
+            <div class="kecidler  col-md-3">
+                <h3>Information</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, pariatur!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, dolorem!
+                </p>
+            </div>
+            <div class="develop mt-5 col-md-3">
+                <p class="mt-5">Developed by Onair Design</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+      var count = 0 , basket , sum
+      basket = document.getElementById('basket');
+      sum = document.getElementById('sum');
+      toplam =document.getElementById('toplam');
+      basketapp =document.getElementById('basketapp');
+      basketberry =document.getElementById('basketberry');
+      mix= 11;
+      apple= 4.20;
+      berry = 3;
+
+      basketapp.addEventListener("click", function () {
+        if (count % 2 === 0) {
+          basketapp.textContent = 'Added to Basket';
+          toplam.textContent = (Number( toplam.textContent) + apple) ;
+    
+        
+        }else if ( basketapp.textContent = 'Add to Basket'){
+           
+            toplam.textContent = Number( toplam.textContent) - apple
+           
+     
+        }  count++;
+      });
+    basket.addEventListener("click", function () {
+        if (count % 2 === 0) {
+          basket.textContent = 'Added to Basket';
+          toplam.textContent =  Number( toplam.textContent) + mix;
+
+    
+        
+        }else if(basket.textContent = 'Add to Basket' ){
+          
+            toplam.textContent = Number( toplam.textContent) - mix ;
+    
+        }  count++;
+      });
+
+     
+    </script>
+    <script src="bootstrap.js"></script>
+    <script src="popper.js"></script>
+   
+  </body>
+</html>
